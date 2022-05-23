@@ -1,0 +1,31 @@
+#all_products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 2rem;
+   
+}
+
+#all_products>div{
+    border: 1px solid red;
+   width: 18rem;
+   height: 18rem;
+    
+}
+
+img{
+   margin-left:3rem;
+   width: 12rem;
+   height: 6rem;
+}
+p{
+    text-align: center;
+}
+#remove_product{
+    margin-left: 5.8rem ;
+    cursor: pointer;
+}
+
+#add_more_product{
+    cursor: pointer;
+}

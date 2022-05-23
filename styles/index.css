@@ -1,0 +1,21 @@
+#products{
+    display: grid;
+    width: 25rem;
+    grid-gap: 1.3rem;
+    margin-left: 28rem;
+}
+
+#navbar{
+    margin-left: 28rem;
+}
+h2{
+    margin-left: 28rem;
+}
+
+#show_products{
+    cursor: pointer;
+}
+
+#add_product{
+    cursor: pointer;
+}
